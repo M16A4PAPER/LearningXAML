@@ -30,6 +30,8 @@ namespace WiredBrainCoffee.CustomersApp
         {
             int column = (int)customerListGrid.GetValue(Grid.ColumnProperty);
 
+            //Grid.GetColumn(customerListGrid);
+
             int newColumn = column == 0 ? 2 : 0;
             //if column is at 0, take it to row 2, else keep at 0
 
